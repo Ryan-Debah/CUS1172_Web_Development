@@ -5,7 +5,7 @@ body {
     padding: 0;
   }
   
-  div {
+  .section-box {
     background-color: white;
     margin: 30px auto;
     padding: 20px;
