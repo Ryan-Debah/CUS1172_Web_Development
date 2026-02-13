@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Course Profile Page - Bootstrap Version</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/mycss_web.css" media="screen and (min-width: 901px)">
+  <link rel="stylesheet" href="css/mycss_tablet.css" media="screen and (max-width: 900px)">
+
+  <style>
+    span {
+      font-weight: bold;
+      color: #2a5d9f;
+    }
+
+    .navbar .nav-link {
+      color: black !important;
+    }
+
+    .navbar .nav-link:hover {
+      color: #93c5fd !important;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#">Ryan Debah</a>
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#basic-info">Basic Info</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+        <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
+        <li class="nav-item"><a class="nav-link" href="#websites">Websites</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container py-5">
+
+  <div id="basic-info" class="row align-items-center mb-5">
+    <div class="col-md-4 text-center">
+      <img src="https://github.com/Ryan-Debah/CUS1172_Web_Development/blob/main/ProfilePic.jpg?raw=true"
+           class="img-fluid rounded-circle shadow"
+           alt="Profile Picture">
+    </div>
+    <div class="col-md-8">
+      <h1>Basic Profile Information</h1>
+      <p>
+        Name: <span>Ryan Debah</span><br>
+        Major/Minor: <span>Computer Science</span><br>
+        Here's what I look like!:
+      </p>
+    </div>
+  </div>
+
+  <div id="education" class="card mb-4">
+    <div class="card-body">
+      <h1>Education Summary</h1>
+      <p>
+        I graduated highschool at York Early College Academy and in 2023 I began
+        attending St. John's University. I decided to pursue a degree
+        in Computer Science because of how much I wanted to learn more about
+        computers and how they operated ever since I was young. Unfortunately,
+        I don't have any degrees yet but as this is my Senior year I will be graduating
+        with a B.S in Computer Science soon!
+      </p>
+      <ul class="list-group">
+        <li class="list-group-item">Highschool Diploma</li>
+        <li class="list-group-item">(Soon to be)B.S in Computer Science</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="experience" class="card mb-4">
+    <div class="card-body">
+      <h1>Internships</h1>
+      <ul class="list-group">
+        <li class="list-group-item">SEO Tech Developer (Summer 2025)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="skills" class="mb-5">
+    <h1>Programming Skills</h1>
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th>Language</th>
+            <th>Experience Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Java</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="interests" class="card mb-4">
+    <div class="card-body">
+      <h1>General Interests & Hobbies</h1>
+      <p>
+        When I have a break I enjoy playing video games with friends or reading. Recently, I have been
+        playing a fair amount of Minecraft on a server with my friends. My personal favorite games include: Risk of Rain
+        2, Terraria and Hades.
+      </p>
+    </div>
+  </div>
+
+  <div id="favorites" class="mb-5">
+    <h1 class="mb-4">Favorite Song, Movie, and TV Show</h1>
+
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="card-body">
+            <h4>My Favorite Song:</h4>
+            <p>Cafuné - Tek It</p>
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/7RWbq-lbBlk" allowfullscreen></iframe>
+            </div>
+            <p class="mt-3">
+              I dont have a particular reason for why I enjoy this song. It just sticks out to me and I always come back to it.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="card-body">
+            <h4>My Favorite Movie:</h4>
+            <p>Spider-Man: Into the Spider-Verse</p>
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/g4Hbz2jLxvQ" allowfullscreen></iframe>
+            </div>
+            <p class="mt-3">
+              This movie is amazing from beginning to end. If you haven't watched it already please do, ASAP. I always loved 
+              Spider-Man so I may be a little biased but it doesn't change the fact that this movie has shown how far animation could go.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-8 offset-md-2">
+        <div class="card h-100">
+          <div class="card-body">
+            <h4>My Favorite TV Show:</h4>
+            <p>Arcane</p>
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/fXmAurh012s" allowfullscreen></iframe>
+            </div>
+            <p class="mt-3">
+              While I'm not a big fan of League of Legends (The game that the story of Arcane is based off of),
+              the show itself has great story telling and really conveys emotion between the characters. I did enjoy Season 1 a bit more than
+              season 2 but it still had a great story and finished off the series well.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="websites" class="card mb-4">
+    <div class="card-body">
+      <h1>Favorite Websites</h1>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <a href="https://www.coolmathgames.com/" target="_blank" class="btn btn-outline-primary btn-sm">
+            Cool Math Games
+          </a>
+          <p class="mt-2">
+            This website saved me from boredom alot of times when I was younger whether it was during school or at
+            home. Although I have 
+            outgrown it and it hasn't been as good since Flash got discontinued, it will always have a spot in my top 5
+            websites of all time.
+          </p>
+        </li>
+
+        <li class="list-group-item">
+          <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" class="btn btn-outline-success btn-sm">
+            Wordle
+          </a>
+          <p class="mt-2">
+            This website is updated every day with a new word that you have to guess. It's a fun
+            little game that has occupied more of my time than I'd like to admit.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="projects" class="card mb-5">
+    <div class="card-body">
+      <h1>My Projects in This Course</h1>
+      <a href="https://ryan-debah.github.io/CUS1172_Web_Development/" class="btn btn-success">
+        Project 1: Profile Page
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
