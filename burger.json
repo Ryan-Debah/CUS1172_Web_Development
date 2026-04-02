@@ -14,7 +14,7 @@
           "id": "protein",
           "type": "multiple-choice",
           "instruction": "Choose your protein",
-          "options": ["Beef", "Chicken", "Plant-Based"]
+          "options": ["Beef", "Plant-Based"]
         },
         {
           "id": "toppings",
@@ -37,9 +37,9 @@
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions": [
-            { "url": "img/presentation1.jpg" },
-            { "url": "img/presentation2.jpg" },
-            { "url": "img/presentation3.jpg" }
+            { "url": "src/beefburger1.jpg" },
+            { "url": "src/beefburger2.jpg" },
+            { "url": "src/beefburger3.jpg" }
           ]
         }
       ]
@@ -81,9 +81,9 @@
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions": [
-            { "url": "img/presentation1.jpg" },
-            { "url": "img/presentation2.jpg" },
-            { "url": "img/presentation3.jpg" }
+            { "url": "src/chickenburger1.jpg" },
+            { "url": "src/chickenburger2.jpg" },
+            { "url": "src/chickenburger3.jpg" }
           ]
         }
       ]
