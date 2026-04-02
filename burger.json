@@ -5,31 +5,86 @@
       "title": "Classic Beef Burger",
       "steps": [
         {
-          "id": "step1",
+          "id": "bun",
           "type": "multiple-choice",
           "instruction": "Choose your bun",
-          "options": ["Sesame", "Brioche", "Lettuce Wrap"],
-          "feedback": null
+          "options": ["Sesame", "Brioche", "Lettuce Wrap"]
         },
         {
-          "id": "step2",
+          "id": "protein",
+          "type": "multiple-choice",
+          "instruction": "Choose your protein",
+          "options": ["Beef", "Chicken", "Plant-Based"]
+        },
+        {
+          "id": "toppings",
+          "type": "multiple-choice",
+          "instruction": "Pick your toppings",
+          "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+        },
+        {
+          "id": "sauce",
           "type": "text",
           "instruction": "Enter number of sauce servings",
           "feedback": {
-            "condition": "amount > 3",
+            "type": "greater-than",
+            "value": 3,
             "message": "Too much sauce might overpower the flavor!"
           }
         },
         {
-          "id": "step3",
+          "id": "presentation",
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions": [
-            { "url": "img/presentation1.jpg", "isCorrect": false },
-            { "url": "img/presentation2.jpg", "isCorrect": true },
-            { "url": "img/presentation3.jpg", "isCorrect": false }
-          ],
-          "feedback": null
+            { "url": "img/presentation1.jpg" },
+            { "url": "img/presentation2.jpg" },
+            { "url": "img/presentation3.jpg" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken-burger",
+      "title": "Grilled Chicken Burger",
+      "steps": [
+        {
+          "id": "bun",
+          "type": "multiple-choice",
+          "instruction": "Choose your bun",
+          "options": ["Whole Wheat", "Brioche", "Lettuce Wrap"]
+        },
+        {
+          "id": "protein",
+          "type": "multiple-choice",
+          "instruction": "Choose your protein",
+          "options": ["Grilled Chicken", "Crispy Chicken"]
+        },
+        {
+          "id": "toppings",
+          "type": "multiple-choice",
+          "instruction": "Pick your toppings",
+          "options": ["Lettuce", "Tomato", "Cheese", "Pickles"]
+        },
+        {
+          "id": "sauce",
+          "type": "text",
+          "instruction": "Enter number of sauce servings",
+          "feedback": {
+            "type": "greater-than",
+            "value": 2,
+            "message": "Too much sauce might overpower the chicken!"
+          }
+        },
+        {
+          "id": "presentation",
+          "type": "image-selection",
+          "instruction": "Choose your burger presentation",
+          "imageOptions": [
+            { "url": "img/presentation1.jpg" },
+            { "url": "img/presentation2.jpg" },
+            { "url": "img/presentation3.jpg" }
+          ]
         }
       ]
     }
