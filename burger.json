@@ -23,23 +23,29 @@
           "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
         },
         {
-          "id": "sauce",
+          "id": "sauceType",
+          "type": "multiple-choice",
+          "instruction": "Choose your sauce",
+          "options": ["Ketchup", "Mayo", "BBQ", "Spicy Chipotle"]
+        },
+        {
+          "id": "sauceAmount",
           "type": "text",
           "instruction": "Enter number of sauce servings",
           "feedback": {
-            "type": "greater-than",
-            "value": 3,
-            "message": "Too much sauce might overpower the flavor!"
-          }
+          "type": "greater-than",
+          "value": 3,
+          "message": "Too much sauce might overpower the flavor!"
+        }
         },
         {
           "id": "presentation",
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions": [
-            { "url": "src/beefburger1.jpg" },
-            { "url": "src/beefburger2.jpg" },
-            { "url": "src/beefburger3.jpg" }
+            { "url": "https://www.google.com/imgres?q=beef%20burger&imgurl=https%3A%2F%2Fwww.certifiedirishangus.ie%2Fwp-content%2Fuploads%2F2019%2F11%2FTheUltimateBurgerwBacon_RecipePic.jpg&imgrefurl=https%3A%2F%2Fwww.certifiedirishangus.ie%2Frecipe-item%2Fultimate-burger%2F&docid=KHi5cDOpCtKpcM&tbnid=vMzRY1-_acNa0M&vet=12ahUKEwiUjaynrtCTAxWgKlkFHRWeKrUQnPAOegQIEhAB..i&w=2400&h=1320&hcb=2&ved=2ahUKEwiUjaynrtCTAxWgKlkFHRWeKrUQnPAOegQIEhAB" },
+            { "url": "https://www.google.com/imgres?q=beef%20burger&imgurl=https%3A%2F%2Fwww.allrecipes.com%2Fthmb%2F5JVfA7MxfTUPfRerQMdF-nGKsLY%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2F25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg&imgrefurl=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F25473%2Fthe-perfect-basic-burger%2F&docid=OMjWWEI7O4yWJM&tbnid=2Z7HZBZkedBwTM&vet=12ahUKEwiUjaynrtCTAxWgKlkFHRWeKrUQnPAOegQIIxAB..i&w=1500&h=1125&hcb=2&ved=2ahUKEwiUjaynrtCTAxWgKlkFHRWeKrUQnPAOegQIIxAB" },
+            { "url": "https://www.google.com/imgres?q=beef%20burger&imgurl=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0725%2F3911%2F1726%2Ffiles%2F20240831035110-andy-20cooks-20-20juicy-20beef-20burger-20recipe.jpg%3Fv%3D1725076272%26width%3D1600%26height%3D900&imgrefurl=https%3A%2F%2Fwww.andy-cooks.com%2Fblogs%2Frecipes%2Fbeef-burger-with-grilled-onions-and-smoked-cheddar%3Fsrsltid%3DAfmBOor0dtIv8JacLNyrv64ERW2r8eb97_iPoj2aUGl4AUsEtp2iyZGo&docid=ha7dgt7L8U52qM&tbnid=_AMVPGXow5xOSM&vet=12ahUKEwiUjaynrtCTAxWgKlkFHRWeKrUQnPAOegQIHBAB..i&w=1000&h=667&hcb=2&ved=2ahUKEwiUjaynrtCTAxWgKlkFHRWeKrUQnPAOegQIHBAB" }
           ]
         }
       ]
@@ -67,23 +73,29 @@
           "options": ["Lettuce", "Tomato", "Cheese", "Pickles"]
         },
         {
-          "id": "sauce",
+          "id": "sauceType",
+          "type": "multiple-choice",
+          "instruction": "Choose your sauce",
+          "options": ["Ketchup", "Mayo", "BBQ", "Spicy Chipotle"]
+        },
+        {
+          "id": "sauceAmount",
           "type": "text",
           "instruction": "Enter number of sauce servings",
           "feedback": {
-            "type": "greater-than",
-            "value": 2,
-            "message": "Too much sauce might overpower the chicken!"
-          }
+          "type": "greater-than",
+          "value": 3,
+          "message": "Too much sauce might overpower the flavor!"
+        }
         },
         {
           "id": "presentation",
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions": [
-            { "url": "src/chickenburger1.jpg" },
-            { "url": "src/chickenburger2.jpg" },
-            { "url": "src/chickenburger3.jpg" }
+            { "url": "https://www.google.com/imgres?q=chicken%20burger&imgurl=https%3A%2F%2Fwww.budgetbytes.com%2Fwp-content%2Fuploads%2F2025%2F07%2FChicken-Burger-Side.jpg&imgrefurl=https%3A%2F%2Fwww.budgetbytes.com%2Fchicken-burger%2F&docid=spHQRXos6YvwcM&tbnid=CChAMBqohU_W_M&vet=12ahUKEwih89HMrtCTAxUwFFkFHSnPK0MQnPAOegQIFBAB..i&w=1200&h=900&hcb=2&ved=2ahUKEwih89HMrtCTAxUwFFkFHSnPK0MQnPAOegQIFBAB" },
+            { "url": "https://www.google.com/imgres?q=chicken%20burger&imgurl=https%3A%2F%2Fi0.wp.com%2Fflaevor.com%2Fwp-content%2Fuploads%2F2022%2F04%2FSambalFriedChickenBurger1.jpg%3Fresize%3D1024%252C830%26ssl%3D1&imgrefurl=https%3A%2F%2Fflaevor.com%2Fsambal-fried-chicken-burger%2F&docid=QOSwlDYsshh1RM&tbnid=pkXj8eOKTnPpTM&vet=12ahUKEwih89HMrtCTAxUwFFkFHSnPK0MQnPAOegQIGhAB..i&w=1024&h=830&hcb=2&ved=2ahUKEwih89HMrtCTAxUwFFkFHSnPK0MQnPAOegQIGhAB" },
+            { "url": "https://www.google.com/imgres?q=chicken%20burger&imgurl=https%3A%2F%2Fcdn.prod.website-files.com%2F657a7aac36df076237527e36%2F658e02cda7939e42519065e9_6584c1ed00a3c9810932e955_airfryerchickensandwich_youtube_dad_2.webp&imgrefurl=https%3A%2F%2Fwww.thecookingguy.com%2Frecipes%2Fair-fried-chicken-burger&docid=1qTatXmYcqMGKM&tbnid=qEPGAq6QEnHToM&vet=12ahUKEwih89HMrtCTAxUwFFkFHSnPK0MQnPAOegQIJBAB..i&w=1920&h=1080&hcb=2&ved=2ahUKEwih89HMrtCTAxUwFFkFHSnPK0MQnPAOegQIJBAB" }
           ]
         }
       ]
